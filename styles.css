@@ -1,3 +1,42 @@
 body {
+    margin: 0px;
+    padding: 0px;
     height: 100vh;
+    font-family: 'Roboto', Times, serif;
+    box-sizing: border-box;
 }
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.header-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links-container {
+    display: flex;
+    gap: 16px;
+}
+
+.header-links {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
