@@ -21,6 +21,9 @@ a {
 .main {
     flex: 1;
 }
+.section {
+    min-height: 400px;
+}
 
 /* Header */
 
