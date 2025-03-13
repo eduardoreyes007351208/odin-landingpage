@@ -129,3 +129,34 @@ a {
     border: 4px solid #3882F6;
     border-radius: 5px;
 }
+
+/* Quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    justify-content: center;
+}
+.quote-container,
+.quote-container2 {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    width: 600px;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0px;
+}
+.quote-container2 {
+    justify-content: end;
+}
+.quote-container2 span {
+    font-weight: bold;
+}
+
+/* Call Action */
