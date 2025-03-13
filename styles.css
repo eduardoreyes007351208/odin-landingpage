@@ -208,3 +208,12 @@ a {
     font-size: 12px;
     font-weight: 600;
 }
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
